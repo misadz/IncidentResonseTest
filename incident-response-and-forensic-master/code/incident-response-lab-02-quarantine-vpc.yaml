@@ -1,18 +1,18 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: Create a quarantine VPC by Matthieu Lienart
+Description: Create a quarantine VPC by Matthieu Lienart, Incident Test Ver Second by HS
 
 ############################################################################################
 #
 # Parameters
 #
 ############################################################################################
-Parameters:
+PParameters:
   # IncidentResponseOwnership
   IncidentResponseProjectName:
-    Description: The project name
+    Description: Please your pravate name write
     Type: String
-    Default: LAB-IR
+    Default: Incident Response & Forensic
   IncidentResponseOwner:
     Type: String
     Default: FirstName LastName

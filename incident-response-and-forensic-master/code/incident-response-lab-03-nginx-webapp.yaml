@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: Create the Load Balanced auto-scaling Nginx web app by Matthieu Lienart
+Description: Create the Load Balanced auto-scaling Nginx web app by Matthieu Lienart, Incident Test Ver Second by HS
 
 ############################################################################################
 #
@@ -10,9 +10,9 @@ Description: Create the Load Balanced auto-scaling Nginx web app by Matthieu Lie
 Parameters:
   # IncidentResponseOwnership
   IncidentResponseProjectName:
-    Description: The project name
+    Description: Please your pravate name write
     Type: String
-    Default: LAB-IR
+    Default: Incident Response & Forensic
   IncidentResponseOwner:
     Type: String
     Default: FirstName LastName

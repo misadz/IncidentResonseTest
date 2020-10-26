@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: First - Master YAML template for the Incident Response and Forensic Lab by Matthieu Lienart, Incident Test Ver Second by HS  
+Description: First - Master YAML template for the Incident Response and Forensic Lab by Matthieu Lienart, Incident Test Ver Second by HS
 
 ############################################################################################
 #
