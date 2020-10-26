@@ -10,18 +10,18 @@ Description: First - Master YAML template for the Incident Response and Forensic
 Parameters:
   # IncidentResponseOwnership
   IncidentResponseProjectName:
-    Description: The project name
+    Description: Please your pravate name write
     Type: String
-    Default: LAB-IR
+    Default: Incident Response & Forensic
   IncidentResponseOwner:
     Type: String
     Default: FirstName LastName
   # Logging and alerts
   IncidentResponseVPCFlowLogsS3BucketArn:
-    Description: S3 bucket where to store VPC flow logs. (leave blank if not wanted)
+    Description: Please it will create S3BuckeArn write. S3 bucket where to store VPC flow logs.
     Type: String
   IncidentResponseVPCFlowLogsCloudWatchLogGroup:
-    Description: CloudWatch log group name where to store VPC flow logs. (leave blank if not wanted)
+    Description: Please it will create CloudWatchLogGroup Name write. CloudWatch log group name where to store VPC flow logs.
     Type: String
   IncidentResponseVPCFlowLogsRetentionInDays:
     Description: Specifies the number of days you want to retain log events.
@@ -143,7 +143,7 @@ Parameters:
   IncidentResponseLambdaS3FileName:
     Type: String
     Description: File name of Incident Response lambda functions in S3
-    Default: ir_lambdas.zip
+    Default: IRandF_lambdas.zip
   OutputS3BucketName:
     Type: String
     Description: Bucket name where the Incident Response function will output the result of their investigations
